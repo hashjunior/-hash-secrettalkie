@@ -48,7 +48,6 @@ auth_window = Tk()
 
 auth_window.configure(background="teal")
 auth_window.minsize(width=318,height=135)
-auth_window.maxsize(width=318,height=135)
 
 frame = LabelFrame(auth_window,borderwidth=5,height=300,width=400,
                    background="teal")
