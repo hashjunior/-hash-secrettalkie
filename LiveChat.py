@@ -10,7 +10,6 @@ import socket
 auth_window = Tk()
 auth_window.configure(background="teal")
 auth_window.minsize(width=318,height=175)
-auth_window.maxsize(width=318,height=175)
 
 frame = LabelFrame(auth_window,borderwidth=5,height=300,width=400,
                    background="teal")
@@ -68,7 +67,6 @@ def receive_messsage():
 
 root.title("Secret Talkie")
 root.minsize(width=520,height=555)
-root.maxsize(width=520,height=555)
 
 message_frame = LabelFrame(root,height=600,width=650,borderwidth=5,background="teal")
 message_frame.grid(pady=5,padx=5)
